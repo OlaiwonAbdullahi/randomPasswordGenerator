@@ -69,7 +69,9 @@ h2 {
 .generateBtn:hover {
   background-color: #45a049;
 }
-
+.footer {
+  text-align: center;
+}
 .password-display {
   background-color: #f9f9f9;
   border: 1px solid #ddd;

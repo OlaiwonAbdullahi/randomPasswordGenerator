@@ -70,19 +70,6 @@ h2 {
   background-color: #45a049;
 }
 
-.checkbox-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 20px;
-}
-
-.checkbox-item {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
 .password-display {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
@@ -90,12 +77,15 @@ h2 {
   padding: 15px;
   margin-top: 20px;
   position: relative;
+  width: 100%;
 }
 
 .password-text {
   font-family: monospace;
-  font-size: 18px;
+
   word-break: break-all;
+  font-size: small;
+  width: 100%;
 }
 
 .copy-btn {
@@ -113,41 +103,4 @@ h2 {
 
 .copy-btn:hover {
   background-color: #0069d9;
-}
-
-.strength-meter {
-  margin-top: 15px;
-}
-
-.strength-bar {
-  height: 10px;
-  border-radius: 5px;
-  background-color: #ddd;
-  margin-top: 5px;
-  overflow: hidden;
-}
-
-.strength-fill {
-  height: 100%;
-  transition: width 0.3s, background-color 0.3s;
-}
-
-.very-weak {
-  background-color: #ff4d4d;
-}
-
-.weak {
-  background-color: #ffa64d;
-}
-
-.medium {
-  background-color: #ffff4d;
-}
-
-.strong {
-  background-color: #4dff4d;
-}
-
-.very-strong {
-  background-color: #00cc00;
 }

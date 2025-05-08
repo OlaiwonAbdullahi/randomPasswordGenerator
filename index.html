@@ -11,21 +11,20 @@
 <body>
     <main>
         <div class="container">
-
             <h2>Random Password Generator</h2>
-            <form action="">
+            <form onsubmit="return false;">
                 <div class="inputForm">
-
-                    <label for="lenghtInput" class=" label">Lenght Of Password </label>
-                    <input type="number" id="lenghtInput" class="lenghtInput">
-                    <button class="generateBtn" onclick="generatePassword()">Generate</button>
+                    <label for="length" class="label">Length Of Password</label>
+                    <input type="number" id="length" class="lengthInput" min="4" max="32" value="6">
+                    <button type="button" class="generateBtn" onclick="generatePassword()">Generate</button>
                 </div>
             </form>
-            <div class="">
+            <div>
                 <p><strong>Generated Password:</strong> <span id="output"></span></p>
             </div>
         </div>
     </main>
+    <script src="main.js"></script>
 </body>
 
 </html>
